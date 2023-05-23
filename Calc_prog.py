@@ -13,5 +13,9 @@ class calculator():
         message = f"The sum of {number_1} and {number_2} is {sum}"
         print(message)
     # Create method for subtraction
+    def difference(self, number_1, number_2):
+        difference = number_1 + number_2
+        message = f"The difference of {number_1} and {number_2} is {difference}"
+        print(message)
     # Create method for multiplication
     # Create method for division
