@@ -21,15 +21,16 @@ To begin, Calkie is asking you for two numbers!""")
     5. Exit""")
     
     while(True):
-        command = input(float("Enter the number of the operation that you wish to do: "))
+        command = input(str("Enter the number of the operation that you wish to do: "))
         if command == "1":
-            Calc.sum()
+            Calc.addition(number_1, number_2)
         elif command == "2":
-            Calc.difference()
+            Calc.subtraction(number_1, number_2)
         elif command == "3":
-            Calc.product()
+            Calc.multiplication(number_1, number_2)
         elif command == "4":
-            Calc.quotient()
+            Calc.division(number_1, number_2)
+
         elif command == "5":
             break
         else:
