@@ -9,7 +9,7 @@ class calculator():
         self.quotient = quotient
     # Create method for addition operation
     def addition(self, number_1, number_2):
-        sum = number_1 + number_2
+        sum = float(number_1) + float(number_2)
         message = f"The sum of {number_1} and {number_2} is {sum}"
         print(message)
         print("__ __________ __")
