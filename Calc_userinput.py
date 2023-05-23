@@ -2,5 +2,9 @@
 class User_Input():
     # Create method for first number 
     def input_user(self):
-        number = float(input("Enter the number: "))
-        return number
+        try:
+            number = float(input("Enter the number: "))
+            return number
+        except ValueError:
+            print("An error has occured, please try again.")
+            number = float(input("Enter a number again: "))
