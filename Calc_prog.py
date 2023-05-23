@@ -14,18 +14,20 @@ class calculator():
         print(message)
         print("__ __________ __")
         print("Would you like to try again?")
-        try_again = input(str("= ")).upper
-        if try_again == "YES":
-            True
-        elif try_again == "NO":
-            break
-        else:
-             print("I do not understand would you like to try again? YES or NO?")
-            tryagain_calc = input("= ").upper()
-            if tryagain_error == "YES":
+        while(True):
+            try_again = input(str("= ")).upper()
+            if try_again == "YES":
                 True
-            elif tryagain_error == "NO":
+            elif try_again == "NO":
                 break
+            else:
+                print("I do not understand would you like to try again? YES or NO?")
+                tryagain_error = input("= ").upper()
+                if tryagain_error == "YES":
+                    True
+                else:
+                    print("I do not understand. Let's start at the beginning.")
+                    break      
     # Create method for subtraction
     def subtraction(self, number_1, number_2):
         difference = number_1 - number_2
@@ -33,18 +35,20 @@ class calculator():
         print(message)
         print("__ __________ __")
         print("Would you like to try again?")
-        try_again = input(str("= ")).upper
-        if try_again == "YES":
-            True
-        elif try_again == "NO":
-            break
-        else:
-             print("I do not understand would you like to try again? YES or NO?")
-            tryagain_calc = input("= ").upper()
-            if tryagain_error == "YES":
+        while(True):
+            try_again = input(str("= ")).upper()
+            if try_again == "YES":
                 True
-            elif tryagain_error == "NO":
+            elif try_again == "NO":
                 break
+            else:
+                print("I do not understand would you like to try again? YES or NO?")
+                tryagain_error = input("= ").upper()
+                if tryagain_error == "YES":
+                    True
+                else:
+                    print("I do not understand. Let's start at the beginning.")
+                    break    
     # Create method for multiplication
     def multiplication(self, number_1, number_2):
         product = number_1 * number_2
@@ -52,18 +56,20 @@ class calculator():
         print(message)
         print("__ __________ __")
         print("Would you like to try again?")
-        try_again = input(str("= ")).upper
-        if try_again == "YES":
-            True
-        elif try_again == "NO":
-            break
-        else:
-             print("I do not understand would you like to try again? YES or NO?")
-            tryagain_calc = input("= ").upper()
-            if tryagain_error == "YES":
+        while(True):
+            try_again = input(str("= ")).upper()
+            if try_again == "YES":
                 True
-            elif tryagain_error == "NO":
+            elif try_again == "NO":
                 break
+            else:
+                print("I do not understand would you like to try again? YES or NO?")
+                tryagain_error = input("= ").upper()
+                if tryagain_error == "YES":
+                    True
+                else:
+                    print("I do not understand. Let's start at the beginning.")
+                    break    
     # Create method for division
     def division(self, number_1, number_2):
         quotient = number_1 / number_2
@@ -71,15 +77,17 @@ class calculator():
         print(message)
         print("__ __________ __")
         print("Would you like to try again?")
-        try_again = input(str("= ")).upper
-        if try_again == "YES":
-            True
-        elif try_again == "NO":
-            break
-        else:
-             print("I do not understand would you like to try again? YES or NO?")
-            tryagain_calc = input("= ").upper()
-            if tryagain_error == "YES":
+        while(True):
+            try_again = input(str("= ")).upper()
+            if try_again == "YES":
                 True
-            elif tryagain_error == "NO":
+            elif try_again == "NO":
                 break
+            else:
+                print("I do not understand would you like to try again? YES or NO?")
+                tryagain_error = input("= ").upper()
+                if tryagain_error == "YES":
+                    True
+                else:
+                    print("I do not understand. Let's start at the beginning.")
+                    break   
