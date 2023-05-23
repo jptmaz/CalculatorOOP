@@ -8,8 +8,10 @@ class calculator():
         self.product = product
         self.quotient = quotient
     # Create method for addition operation
-    def addition(self):
-        
+    def addition(self, number_1, number_2):
+        sum = number_1 + number_2
+        message = f"The sum of {number_1} and {number_2} is {sum}"
+        print(message)
     # Create method for subtraction
     # Create method for multiplication
     # Create method for division
