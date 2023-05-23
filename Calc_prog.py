@@ -8,6 +8,8 @@ class calculator():
         self.product = product
         self.quotient = quotient
     # Create method for addition operation
+    def addition(self):
+        
     # Create method for subtraction
     # Create method for multiplication
     # Create method for division
