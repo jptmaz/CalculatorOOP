@@ -6,21 +6,22 @@ def main():
     ui = User_Input()
     Calc = calculator()
     
-    print("""Welcome to Calkie your program calculator! 
+    while(True):
+        
+        print("""Welcome to Calkie your program calculator! 
 To begin, Calkie is asking you for two numbers!""")
-    # Ask user for numbers 1 & 2
-    number_1 = ui.input_user()
-    number_2 = ui.input_user()
+        # Ask user for numbers 1 & 2
+        number_1 = ui.input_user()
+        number_2 = ui.input_user()
     
-    # Ask user for operation
-    print ("""[[[''''''' OPERATIONS ''''''']]]
+        # Ask user for operation
+        print ("""[[[''''''' OPERATIONS ''''''']]]
     1. Addition
     2. Subtraction
     3. Multiplication
     4. Division
     5. Exit""")
     
-    while(True):
         command = input(str("Enter the number of the operation that you wish to do: "))
         if command == "1":
             Calc.addition(number_1, number_2)

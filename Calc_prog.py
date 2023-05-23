@@ -8,22 +8,78 @@ class calculator():
         self.product = product
         self.quotient = quotient
     # Create method for addition operation
-    def sum(self, number_1, number_2):
+    def addition(self, number_1, number_2):
         sum = number_1 + number_2
         message = f"The sum of {number_1} and {number_2} is {sum}"
         print(message)
+        print("__ __________ __")
+        print("Would you like to try again?")
+        try_again = input(str("= ")).upper
+        if try_again == "YES":
+            True
+        elif try_again == "NO":
+            break
+        else:
+             print("I do not understand would you like to try again? YES or NO?")
+            tryagain_calc = input("= ").upper()
+            if tryagain_error == "YES":
+                True
+            elif tryagain_error == "NO":
+                break
     # Create method for subtraction
-    def difference(self, number_1, number_2):
+    def subtraction(self, number_1, number_2):
         difference = number_1 - number_2
         message = f"The difference of {number_1} and {number_2} is {difference}"
         print(message)
+        print("__ __________ __")
+        print("Would you like to try again?")
+        try_again = input(str("= ")).upper
+        if try_again == "YES":
+            True
+        elif try_again == "NO":
+            break
+        else:
+             print("I do not understand would you like to try again? YES or NO?")
+            tryagain_calc = input("= ").upper()
+            if tryagain_error == "YES":
+                True
+            elif tryagain_error == "NO":
+                break
     # Create method for multiplication
-    def product(self, number_1, number_2):
+    def multiplication(self, number_1, number_2):
         product = number_1 * number_2
         message = f"The product of {number_1} and {number_2} is {product}"
         print(message)
+        print("__ __________ __")
+        print("Would you like to try again?")
+        try_again = input(str("= ")).upper
+        if try_again == "YES":
+            True
+        elif try_again == "NO":
+            break
+        else:
+             print("I do not understand would you like to try again? YES or NO?")
+            tryagain_calc = input("= ").upper()
+            if tryagain_error == "YES":
+                True
+            elif tryagain_error == "NO":
+                break
     # Create method for division
-    def quotient(self, number_1, number_2):
+    def division(self, number_1, number_2):
         quotient = number_1 / number_2
         message = f"The sum of {number_1} and {number_2} is {quotient}"
         print(message)
+        print("__ __________ __")
+        print("Would you like to try again?")
+        try_again = input(str("= ")).upper
+        if try_again == "YES":
+            True
+        elif try_again == "NO":
+            break
+        else:
+             print("I do not understand would you like to try again? YES or NO?")
+            tryagain_calc = input("= ").upper()
+            if tryagain_error == "YES":
+                True
+            elif tryagain_error == "NO":
+                break
