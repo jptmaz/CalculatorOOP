@@ -1,14 +1,14 @@
 # Create a class
 class calculator():
     # Create a special init method
-    def __init__(self, sum, difference, product, quotient):
+    def __init__(self, sum = 0, difference = 0, product = 0, quotient = 0):
         # Select all instance variables
         self.sum = sum
         self.difference = difference
         self.product = product
         self.quotient = quotient
     # Create method for addition operation
-    def addition(self, number_1, number_2):
+    def sum(self, number_1, number_2):
         sum = number_1 + number_2
         message = f"The sum of {number_1} and {number_2} is {sum}"
         print(message)
