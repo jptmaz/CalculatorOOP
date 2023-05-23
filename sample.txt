@@ -1,0 +1,1 @@
+This is a sample text file to test the connection of the local repository to the git repository
