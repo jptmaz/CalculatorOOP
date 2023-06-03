@@ -19,8 +19,8 @@ class Calculator_Prog(calculator):
         return super().division(number_1, number_2)
     
 def main():
-    ui = User_Input()
-    Calc = calculator()
+    ui = UserInput_Prog()
+    Calc = Calculator_Prog()
     
     while(True):
         
