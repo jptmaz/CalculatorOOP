@@ -24,6 +24,7 @@ def main():
     
     while(True):
         
+        print("~~~~~~~ * ~~~~~~~")
         print("Welcome to Calkie your program calculator!")
         print("Do you want to use Calkie?")
         Calkie_command = input(str("= ")).upper()
