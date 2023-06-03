@@ -1,10 +1,10 @@
 # Import class
-from Calc_userinput import User_Input
-from Calc_prog import calculator
+from i_calculator import UserInput_Prog
+from i_calculator import Calculator_Prog
 
 def main():
-    ui = User_Input()
-    Calc = calculator()
+    ui = UserInput_Prog()
+    Calc = Calculator_Prog()
     
     while(True):
         
